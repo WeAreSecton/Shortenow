@@ -127,7 +127,7 @@ if (isset($_POST['url'])) {
 </html>
 
 <?php
-function generate_random_string($length = 6) {
+function generate_random_string($length = 12) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $random_string = '';
 
